@@ -3,7 +3,7 @@
 "use client"
 import { useEffect, useState } from "react"
 import { getCurrentUser } from "@/app/lib/auth"
-import Sidebar from "@/app/components/layout/sidebar"
+import Sidebar from "@/components/layout/sidebar"
 export default function DashboardLayout({ children }) {
   const [user, setUser] = useState(null)
 
